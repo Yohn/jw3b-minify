@@ -1,5 +1,6 @@
 ##PHP's simple Minify
-Compressing and minifying your css and javascript files
+Compressing and minifying your css and javascript files. 
+Please help improve the JS minify function
 
 ###Simple to use,
 
