@@ -2,7 +2,19 @@
 Compressing and minifying your css and javascript files
 
 ###Simple to use,
+
 ````php
+/* example 
+*
+*	@type = css || js
+*	@files = array of the files to compress
+*	@file = the /path/to/savedFile.css of the file
+*
+*	function compress($type, $files, $file)
+*
+*	// the numbers is the filemtime() of the cache file
+*	@return '/path/to/savedFile.css?vers=987589745';
+*/
 
 // to compress css files
 $CSSFiles = array(
