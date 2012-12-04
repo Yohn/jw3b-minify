@@ -1,5 +1,8 @@
 ##PHP's simple Minify
-Compressing and minifying your css and javascript files. 
+Compressing and minifying your css and javascript files on the fly. 
+This class will update the compressed css or javascript file when a change has been made to one the files being included.
+It will also add `?vers=` to the url with the last time the file was compressed at the end of the string.
+
 Please help improve the JS minify function
 
 ###Simple to use,
