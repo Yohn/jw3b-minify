@@ -40,5 +40,5 @@ $JSFile = $min->compress('js', $JSFiles, '/a.homes/compressedFiles/js.global.min
 
 // and then eco it out
 echo '<link type="text/css" rel="stylesheet" href="'.$CSSFile.'">'.
-	'<script type="text/javascript src="'.$JSFile."></script>';
+	'<script type="text/javascript" src="'.$JSFile.'"></script>';
 ````
